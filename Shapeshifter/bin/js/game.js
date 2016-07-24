@@ -534,8 +534,8 @@ var Shapeshifter;
             this.state.add('Level1', Shapeshifter.Level1, false);
             this.state.start('Boot');
         }
-        static get DEBUG_MODE() { return true; }
-        static get MUTE_SOUND() { return true; }
+        static get DEBUG_MODE() { return false; }
+        static get MUTE_SOUND() { return false; }
         static get EMPTY_ROOM() { return false; }
         static get GAME_WIDTH() { return 600; }
         static get GAME_HEIGHT() { return 800; }
